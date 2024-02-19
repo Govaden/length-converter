@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:layout_width="match_parent"
+    app:layout_height="match_parent"
+    app:gravity="center"
+    app:orientation="vertical"
+    app:padding="25dp"
+    tools:ignore="NamespaceTypo">
+
+    <ImageView
+        app:layout_width="300dp"
+        app:layout_height="215dp"
+        app:src="@drawable/liners" />
+
+    <TextView
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:layout_margin="15dp"
+        app:text="Inches to meters converter"
+        app:textSize="20dp" />
+
+
+    <EditText
+        app:id="@+id/edit_text_inches"
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:hint="Inches"
+        app:inputType="numberDecimal" />
+
+    <Button
+        app:id="@+id/button_calculate"
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:layout_margin="10dp"
+        app:text="Calculate" />
+
+    <TextView
+        app:id="@+id/text_view_meters"
+        app:layout_width="wrap_content"
+        app:layout_height="wrap_content"
+        app:layout_margin="10dp" />
+
+
+</LinearLayout>
